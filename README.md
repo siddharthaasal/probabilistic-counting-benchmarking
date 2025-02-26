@@ -103,4 +103,5 @@ PRs are welcome! Open an issue for suggestions or improvements.
 ---
 
 ## **Contact**
-[Linkedin](https://www.linkedin.com/in/siddharthaasal/)
+- [Siddharth Aasal](https://www.linkedin.com/in/siddharthaasal/)
+- [Tanishq Varshney](https://www.linkedin.com/in/tanishq-varshney-0b5846322/)

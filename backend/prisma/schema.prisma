@@ -10,7 +10,21 @@ datasource db {
 model VideoMetrics {
   id        Int      @id @default(autoincrement())
   videoId   String
-  views     Int // Exact count of views (brute force comparison)
-  likes     Int // Exact count of likes
+  views     Int
+  likes     Int
   createdAt DateTime @default(now())
+}
+
+model VideoViews {
+  id        Int      @id @default(autoincrement())
+  videoId   String
+  userId    String
+  timestamp DateTime @default(now())
+}
+
+model VideoLikes {
+  id        Int      @id @default(autoincrement())
+  videoId   String
+  userId    String
+  timestamp DateTime @default(now())
 }

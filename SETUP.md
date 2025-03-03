@@ -13,3 +13,6 @@ https://pris.ly/d/getting-started
 ---
 
 npx prisma migrate dev --name video_metrics_init
+
+
+npx prisma studio

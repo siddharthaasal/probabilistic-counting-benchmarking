@@ -4,7 +4,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed:1K": "node prisma/seed.js 1000",
+    "seed:10K": "node prisma/seed.js 10000",
+    "seed:100K": "node prisma/seed.js 100000",
+    "seed:1M": "node prisma/seed.js 1000000"
   },
   "type": "module",
   "keywords": [],

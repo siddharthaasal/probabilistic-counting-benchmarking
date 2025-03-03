@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model VideoMetrics {
+  id        Int      @id @default(autoincrement())
+  videoId   String
+  views     Int // Exact count of views (brute force comparison)
+  likes     Int // Exact count of likes
+  createdAt DateTime @default(now())
+}

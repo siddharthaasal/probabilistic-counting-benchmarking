@@ -16,3 +16,8 @@ npx prisma migrate dev --name video_metrics_init
 
 
 npx prisma studio
+
+
+npm run seed:10K
+
+node src/scripts/seedCMS.js
